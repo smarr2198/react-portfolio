@@ -8,7 +8,6 @@ function Projects(props) {
     <>
       <body class="bgc-lightgray d-f fxd-c h-100vh mw-60">
         <h2 class="ta-c ff-fantasy fw-700 td-u mt fz-2">Projects</h2>
-
         <section class="bgc-gr2 mt d-f@lrg p+">
           <div class="fx-1">
             <img
@@ -179,6 +178,25 @@ function Projects(props) {
                   id="moreProjects"
                 >
                   Pages
+                </button>
+              </a>
+            </p>
+          </div>
+        </section>
+        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg ml-proj@lrg p+ ta-c">
+          <div class="fx-1 pl c-white">
+            <h3>
+              Check out all my projects on JavaScript, Express.js, Node.js, SQL,
+              MongoDB, React, and more.
+            </h3>
+            <p class="mt">
+              <a href="https://github.com/smarr2198">
+                <button
+                  type="button"
+                  class="btn btn-secondary hover mr d-grid gap-2 col-6 mx-auto"
+                  id="moreProjects"
+                >
+                  <h3>My Github</h3>
                 </button>
               </a>
             </p>
