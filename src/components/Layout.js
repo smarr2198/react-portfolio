@@ -1,7 +1,4 @@
-import Header from "./Header";
 import Body from "./Body";
-import Footer from "./Footer";
-import Projects from "./Projects";
 
 function Layout(props) {
   return (
@@ -9,8 +6,6 @@ function Layout(props) {
       <main>
         <Body></Body>
       </main>
-
-      {/* <main>{props.children}</main> */}
     </>
   );
 }
