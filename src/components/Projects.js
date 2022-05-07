@@ -7,6 +7,8 @@ function Projects(props) {
   return (
     <>
       <body class="bgc-lightgray d-f fxd-c h-100vh mw-60">
+        <h2 class="ta-c ff-fantasy fw-700 td-u mt fz-2">Projects</h2>
+
         <section class="bgc-gr2 mt d-f@lrg p+">
           <div class="fx-1">
             <img
