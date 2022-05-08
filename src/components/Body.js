@@ -4,10 +4,10 @@ import mvcImage from "../assets/images/MVCscreenshot.png";
 function Body(props) {
   return (
     <>
-      <body class="d-f fxd-c h-100vh mw-60">
-        <main class="d-f@lrg g fg-1 p">
-          <div class="fg-4@lrg g">
-            <h2 class="ta-c ff-fantasy fw-700 td-u fz-2">About Me</h2>
+      <body class="d-f fxd-c h-100vh sideBody@lrg pl">
+        <main class="d-f@lrg ai-c mr fg-1 ">
+          <div class="fg-4@lrg">
+            <h2 class="ta-c ff-fantasy fw-700 mt td-u fz-2">About Me</h2>
 
             <section class="bgc-gr2 d-f@lrg p+">
               <div class="fx-1">
@@ -44,15 +44,14 @@ function Body(props) {
               Featured Project
             </h2>
             <section class="bgc-gr2 mt d-f@lrg p+">
-              <div class="fx-1">
+              <div class="fx-1 c-white ta-c">
                 <img
                   class="w-100 ai-c@min"
                   src={mvcImage}
                   alt="Screenshot of my JS project that is on github"
                 ></img>
-              </div>
-              <div class="fx-1 pl c-white">
-                <p>
+
+                <p class="mt">
                   This is a model view controller application that represents a
                   Tech Blog. Users are able to sign up/log in and can make posts
                   that will display on the homepage of our website. From there a
@@ -89,7 +88,7 @@ function Body(props) {
                 <a href="/projects">
                   <button
                     type="button"
-                    class="btn btn-secondary w-100 hover"
+                    class="btn btn-secondary w-100 mt hover"
                     id="moreProjects"
                   >
                     More Projects

@@ -6,18 +6,16 @@ import weatherAppPic from "../assets/images/weatherAppPic.png";
 function Projects(props) {
   return (
     <>
-      <body class="bgc-lightgray d-f fxd-c h-100vh mw-60">
+      <body class="bgc-lightgray d-f sideBody@lrg fxd-c ai-c ta-c h-100vh">
         <h2 class="ta-c ff-fantasy fw-700 td-u mt fz-2">Projects</h2>
-        <section class="bgc-gr2 mt d-f@lrg p+">
-          <div class="fx-1">
+        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg p+">
+          <div class="fx-1 c-white">
             <img
               class="w-100 ai-c@min"
               src={mvcImage}
               alt="Screenshot of my JS project that is on github"
-            ></img>
-          </div>
-          <div class="fx-1 pl c-white">
-            <p>
+            />
+            <p class="mt">
               This is a model view controller application that represents a Tech
               Blog. Users are able to sign up/log in and can make posts that
               will display on the homepage of our website. From there a user can
@@ -52,16 +50,14 @@ function Projects(props) {
             </p>
           </div>
         </section>
-        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg ml-proj@lrg p+">
-          <div class="fx-1">
+        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg p+">
+          <div class="fx-1 c-white">
             <img
               class="w-100 ai-c@min p-t-s"
               src={noteTaker}
               alt="A Folder filled with papers"
             />
-          </div>
-          <div class="fx-1 pl c-white">
-            <p>
+            <p class="mt">
               This is a Note Taker application that uses Node.JS and Express.JS.
               The note taker will start off blank and you can create a title for
               your note/reminder and then enter the text underneath. Once your
@@ -98,16 +94,14 @@ function Projects(props) {
           </div>
         </section>
 
-        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg ml-proj@lrg p+">
-          <div class="fx-1">
+        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg p+">
+          <div class="fx-1 c-white">
             <img
               class="w-100 ai-c@min p-t-s"
               src={TeamProfileGenerator}
               alt="A Folder filled with papers"
             />
-          </div>
-          <div class="fx-1 pl c-white">
-            <p>
+            <p class="mt">
               this is an app that uses node.js and asks for user input through
               the command line. A user is asked to fill out information for a
               team of engineers, manager, and an intern. You can assign an ID
@@ -142,16 +136,14 @@ function Projects(props) {
           </div>
         </section>
 
-        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg ml-proj@lrg p+">
-          <div class="fx-1">
+        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg p+">
+          <div class="fx-1 c-white">
             <img
               class="w-100 ai-c@min p-t-s"
               src={weatherAppPic}
               alt="A Folder filled with papers"
             />
-          </div>
-          <div class="fx-1 pl c-white">
-            <p>
+            <p class="mt">
               This application is a weather app where you can search a specific
               city and it will show a current day result with Temperature,
               humidity, wind speeds, and UV Index. Below it will show results of
@@ -183,8 +175,8 @@ function Projects(props) {
             </p>
           </div>
         </section>
-        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg ml-proj@lrg p+ ta-c">
-          <div class="fx-1 pl c-white">
+        <section class="bgc-gr2 mt d-f@lrg proj-w@lrg p+ ta-c">
+          <div class="fx-1 c-white">
             <h3>
               Check out all my projects on JavaScript, Express.js, Node.js, SQL,
               MongoDB, React, and more.

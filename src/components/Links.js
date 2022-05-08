@@ -3,7 +3,7 @@ import linksImg from "../assets/images/links.jpeg";
 function Links(props) {
   return (
     <>
-      <body class="d-f fxd-c h-100vh mw-60">
+      <body class="sideBody@lrg d-f fxd-c h-100vh">
         <main class="d-f@lrg g fg-1 p">
           <div class="fg-4@lrg g">
             <h2 class="ta-c ff-fantasy fw-700 td-u fz-2">Links</h2>
