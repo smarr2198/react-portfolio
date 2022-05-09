@@ -4,12 +4,12 @@ import mvcImage from "../assets/images/MVCscreenshot.png";
 function Body(props) {
   return (
     <>
-      <body class="d-f fxd-c h-100vh sideBody@lrg pl">
+      <body class="d-f fxd-c h-100vh ai-c ta-c proj-w@lrg sideBody@lrg h-100vh pl">
         <main class="d-f@lrg ai-c mr fg-1 ">
           <div class="fg-4@lrg">
             <h2 class="ta-c ff-fantasy fw-700 mt c-blue td-u fz-2">About Me</h2>
 
-            <section class="bgc-gr2 d-f@lrg p+">
+            <section class="bgc-gr2 mt d-f@lrg proj-w@lrg mlr-a p+">
               <div class="fx-1">
                 <img
                   class="w-100 ai-c@min"
@@ -43,7 +43,7 @@ function Body(props) {
             <h2 class="ta-c ff-fantasy fw-700 c-blue p-t td-u fz-2">
               Featured Project
             </h2>
-            <section class="bgc-gr2 mt d-f@lrg p+">
+            <section class="bgc-gr2 mt d-f@lrg mlr-a proj-w@lrg p+">
               <div class="fx-1 c-white ta-c">
                 <img
                   class="w-100 ai-c@min"

@@ -118,6 +118,11 @@ a:hover {
   color: #62dafb;
 }
 
+.mlr-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .g {
   gap: 1.5rem;
 }
