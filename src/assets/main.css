@@ -8,7 +8,7 @@ body {
   margin: 0 auto;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: lightgray;
+  background-color: gray;
   /* position: absolute;
   top: 0;
   right: 0;
@@ -114,6 +114,10 @@ a:hover {
   color: white;
 }
 
+.c-blue {
+  color: #62dafb;
+}
+
 .g {
   gap: 1.5rem;
 }
@@ -162,6 +166,16 @@ a:hover {
 .m0 {
   margin: 0;
 }
+
+.circleBtn {
+  width: 100px;
+  height: 100px;
+  padding: 13px 18px;
+  border-radius: 60px;
+  font-size: 15px;
+  text-align: center;
+}
+
 .mr {
   margin-right: 1.5rem;
 }
@@ -225,7 +239,7 @@ a:hover {
 }
 
 .td-u {
-  text-decoration: underline #575763;
+  text-decoration: underline #212529;
 }
 
 /* media querys to scale with Mobile */

@@ -6,7 +6,7 @@ function Links(props) {
       <body class="sideBody@lrg d-f fxd-c h-100vh">
         <main class="d-f@lrg g fg-1 p">
           <div class="fg-4@lrg g">
-            <h2 class="ta-c ff-fantasy fw-700 td-u fz-2">Links</h2>
+            <h2 class="ta-c ff-fantasy fw-700 c-blue td-u fz-2">Links</h2>
             <section class="bgc-gr2 d-f@lrg p+">
               <div class="fx-1">
                 <img

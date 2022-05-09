@@ -16,7 +16,7 @@ function Header(props) {
             <a href="/">
               <button
                 type="button"
-                class="btn btn-secondary hover w-100 "
+                class="btn btn-secondary hover w-100 cricleBtn"
                 id="moreProjects"
               >
                 About Me
@@ -28,7 +28,7 @@ function Header(props) {
             <a href="/projects">
               <button
                 type="button"
-                class="btn btn-secondary hover w-100"
+                class="btn btn-secondary hover w-100 cricleBtn"
                 id="moreProjects"
               >
                 Projects
@@ -40,14 +40,14 @@ function Header(props) {
             <a href="/Links">
               <button
                 type="button"
-                class="btn btn-secondary hover w-100"
+                class="btn btn-secondary hover w-100 cricleBtn"
                 id="moreProjects"
               >
                 Links
               </button>
             </a>
           </div>
-          <div class="ff-fantasy fw-700 mt fz-2 c-white jc-s">
+          <div class="ff-fantasy fw-700 mt fz-2 c-blue jc-s">
             <p>Stephen Marr</p>
           </div>
         </nav>
